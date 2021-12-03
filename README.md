@@ -23,6 +23,29 @@ Cuando un usuario pide un pedido a través de Akadelivers se le cobra directamen
    - Turno 2 (08:00-16:00)
     - Turno 3 (16:00-00:00)
     
-- - Qué porcentaje de repartidores pondrías por cada turno para que sean capaces de hacer frente a los picos de demanda. (ej: Turno 1 el 30%, Turno 2 el 10% y Turno 3 el 60%).
+- Qué porcentaje de repartidores pondrías por cada turno para que sean capaces de hacer frente a los picos de demanda. (ej: Turno 1 el 30%, Turno 2 el 10% y Turno 3 el 60%).
 
--Realiza un modelo predictivo de machine learning a partir del dataset 'train.csv' en el cual a partir de las variables predictoras que se entregan en el dataset 'test_X' se pueda predecir si el pedido se cancelará o no (columna 'final_status')
+- Realiza un modelo predictivo de machine learning a partir del dataset 'train.csv' en el cual a partir de las variables predictoras que se entregan en el dataset 'test_X' se pueda predecir si el pedido se cancelará o no (columna 'final_status')
+
+
+# Información del Dataset
+
+Datasets
+Variables del dataset:
+
+order_id: Número de identificación del pedido.
+
+local_time: Hora local a la que se realiza el pedido.
+
+country_code: Código del pais en el que se realiza el pedido.
+
+store_address: Número de tienda en a la que se realiza el pedido.
+
+payment_status: Estado del pedido.
+
+n_of_products: Número de productos que se han comprado en ese pedido.
+
+products_total: Cantidad en Euros que el usuario ha comprado en la app.
+
+final_status: Estado final del pedido (este será la variable 'target' a predecir) que indicara si el pedido será finalmente entregado o cancelado. Hay dos tipos de estado:
+
