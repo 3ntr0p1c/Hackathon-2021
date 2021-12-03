@@ -1,6 +1,6 @@
 # Hackathon-2021
 
-Reto a desarrollar en la primera fase online del Hackathon para optar a un puesto para la segunda fase final que se celebrará el 10 de Diciembre en Barcelona (La Llotja de Mar).
+Reto a desarrollar en la primera fase online del Hackathon 2021 edition para optar a un puesto para la segunda fase final que se celebrará el 10 de Diciembre en Barcelona (La Llotja de Mar).
 
 La solución aquí propuesta obtuvo el 8º mejor resultado, logrando así estar entre los 40 mejores aspirantes y lograr una plaza para la fase final.
 
