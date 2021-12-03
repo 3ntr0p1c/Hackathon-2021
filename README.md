@@ -28,7 +28,7 @@ Cuando un usuario pide un pedido a través de Akadelivers se le cobra directamen
 - Realiza un modelo predictivo de machine learning a partir del dataset 'train.csv' en el cual a partir de las variables predictoras que se entregan en el dataset 'test_X' se pueda predecir si el pedido se cancelará o no (columna 'final_status')
 
 
-# Información del Dataset
+## Información del Dataset
 
 Datasets
 Variables del dataset:
@@ -49,3 +49,5 @@ products_total: Cantidad en Euros que el usuario ha comprado en la app.
 
 final_status: Estado final del pedido (este será la variable 'target' a predecir) que indicara si el pedido será finalmente entregado o cancelado. Hay dos tipos de estado:
 
+  - CanceledStatus: La entrega se ha cancelado.
+  - DeliveredStatus: La entrega se ha realizado correctamente.
