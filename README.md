@@ -19,8 +19,8 @@ Cuando un usuario pide un pedido a través de Akadelivers se le cobra directamen
 - ¿Cuál es el precio medio por pedido en la tienda con ID 12513?
 - Teniendo en cuenta los picos de demanda en España, si los repartidores trabajan en turnos de 8horas.
   -Turno 1 (00:00-08:00)
-+Turno 2 (08:00-16:00)
-+Turno 3 (16:00-00:00)
+   - Turno 2 (08:00-16:00)
+    - Turno 3 (16:00-00:00)
 ->Qué porcentaje de repartidores pondrías por cada turno para que sean capaces de hacer frente a los picos de demanda. (ej: Turno 1 el 30%, Turno 2 el 10% y Turno 3 el 60%).
 
 -Realiza un modelo predictivo de machine learning a partir del dataset 'train.csv' en el cual a partir de las variables predictoras que se entregan en el dataset 'test_X' se pueda predecir si el pedido se cancelará o no (columna 'final_status')
