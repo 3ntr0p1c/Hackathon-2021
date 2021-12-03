@@ -27,6 +27,9 @@ Cuando un usuario pide un pedido a través de Akadelivers se le cobra directamen
 
 - Realiza un modelo predictivo de machine learning a partir del dataset 'train.csv' en el cual a partir de las variables predictoras que se entregan en el dataset 'test_X' se pueda predecir si el pedido se cancelará o no (columna 'final_status')
 
+Entregar las predicciones en un csv a parte. La calidad de la predicción se medira a partir del f1-score(macro).
+
+Fecha de entrega máxima: 22 Noviembre 2021 23.59h UTC
 
 ## Información del Dataset
 
